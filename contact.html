@@ -1,44 +1,58 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>L. Robert Gonzalez</title>
-        <meta charest="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet"  type="text/css" href="assets/css/style2.css">
-    </head>
-    <body>
-        <div class="navbar">
-        <header>
-            <h1>L. Robert Gonzalez</h1>
-        </header>
-                <div class="links">
-                <ul>
-                    <li><a href="index.html">About|</a></li>
-                    <li><a href="portfolio.html">Portfolio|</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                </div>
-        </div>
-        <hr>
-        <section class="bio">
-        <h2> Contact </h2>
-        <hr>
-    <div class="form">
-      <form action="" method="">
-        <label for="fullname">Name</label>
-        <input type="text" id="fullname" name="fullname" required="">
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email" required="">
-        <label for="message">Message</label>
-        <input type="text" id="message" name="message">
-        <input type="submit" value="Submit">
-        </form>
-       </section>
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | L.Robert Gonzalez, III</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo"> LRG3</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-    </body>
-    <footer>
-        <small>Copyright &#169;</small>
-        <br>
-    </footer>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
+
 </html>
